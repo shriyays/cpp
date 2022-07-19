@@ -6,6 +6,7 @@ ERRORS IN C++
    - synatx errors 
    - compilation is not succeeded
 
+
 2. Runtime Errors 
     - occur during exceutiuon of program 
     - zero division errors

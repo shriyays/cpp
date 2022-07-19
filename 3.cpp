@@ -103,9 +103,6 @@ Purpose 3 - to access a class's static variables.
 Purpose 4 - in case of multiple inheritance.
 Purpose 5 - for namespaces 
 Purpose 6 - to refer a class that is inside another class.
-Purpose 7 - 
-
-
 
 
 */
