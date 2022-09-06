@@ -4,7 +4,7 @@ INTRODUCTION TO C++ :
     - It is a statically typed compiled programming language.
     - Developed by Bjarne Stroustrup in 1979 at the AT&T Bell laboratories.
     - Owns the objected oriented programming features of Simula and high performance features of C.
-    - also called as C with classes or as the sueprset of C.
+    - also called as C with classes or as the superset of C.
     - possesses zero overhead abstractions i.e. the OOP concepts such as : POLYMORPHISM / ENCAPSULATION / INHERITANCE.
     - makes use of low level memory and hardware control like C along with the high level abstractions.
 
@@ -12,17 +12,18 @@ INTRODUCTION TO C++ :
 
 
 //CODE 
-#include<iostream>
+
+#include<iostream> 
 #include<string>
 using namespace std;
 
 
 void func()
 {
-   // std::cout<<"Print"; - when "using namespace std;" is not used 
+   // std::cout<<"Print";// - when "using namespace std;" is not used 
    cout<<"Print\n";
 
-   // char hello[] = " HELLOO "; - when "include<string>" is not used
+   // char hello[] = " HELLOO "; //  when "include<string>" is not used
    string hello = "HELLO";
    
 }
