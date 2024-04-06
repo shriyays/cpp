@@ -1,13 +1,11 @@
-/*
-ERRORS IN C++
+/*ERRORS IN C++
     - illegal operations performed by the user which results in abnormal working of a program
-1. Compile Time Errors / Syntax errors
+1. Compile Time Errors / Syntax errors ( binary / executable file is failed to be made)
    -  missing semicolon
    - synatx errors 
    - compilation is not succeeded
 
-
-2. Runtime Errors 
+2. Runtime Errors ( binary / executable files are created but cannot be run )
     - occur during exceutiuon of program 
     - zero division errors
     - after compilation is suceeded
@@ -18,16 +16,12 @@ ERRORS IN C++
     - when the executable file cannot be generated
     - Main() instead of main()
 
-
 4.Logical errors
     - desired output is not obtained 
     - compilation and execution are successful
 
-
 5. Semantic error
     - occurs when the statements written in the program are not meaningful to the compiler.
-    - 
-
 */
 
 #include <iostream>
