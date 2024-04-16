@@ -6,7 +6,7 @@ int main()
 {
 
     int scores[10]; //declaring datatype and size
-    for(int i{};i<10;i++)
+    for(int i{};i<sizeof(scores)/sizeof(scores[0]);i++)
         cout<<scores[i]<<setw(4); //garbage values
 
 
@@ -30,7 +30,7 @@ int main()
 
 
     char m[3] {'h','i','e'}; //not a cstring
-    cout<<m<<endl;
+    cout<<m<<endl; //prints the string  
     m[1]='o';
     cout<<m<<endl;
     for(auto i:m)
